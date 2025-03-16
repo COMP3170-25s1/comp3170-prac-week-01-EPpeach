@@ -65,8 +65,8 @@ public class Scene {
 		// connect the vertex buffer (the mesh data) to the a_position attribute
 		shader.setAttribute("a_position", vertexBuffer);
 		
-		// write the colour value into the u_colour uniform. For now, we will write colours as Vec3s (R,G,B).
-		Vector3f colour = new Vector3f(1.0f, 0.0f, 0.f); // RED
+		// write the colour value into the uniform. For now, we will write colours as Vec3s (R,G,B).
+		Vector3f colour = new Vector3f(0.76f, 0.57f, 0.85f); // RED >> Lilac purple?
 		shader.setUniform("u_colour", colour);
 		
 		Vector2f screenSize = new Vector2f(screenWidth, screenHeight);

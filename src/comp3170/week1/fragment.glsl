@@ -13,6 +13,6 @@ void main() {
       o_colour = vec4(u_colour, 1);
    }
    else {
-      o_colour = vec4(0,0,0,1); // BLACK
+      o_colour = vec4(0.46f, 0.24f, 0.34f, 1.0f); // BLACK >> Mauve Pink??
    }
 }

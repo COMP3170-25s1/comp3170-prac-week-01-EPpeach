@@ -28,8 +28,8 @@ public class Week1 implements  IWindowListener  {
 	private float[] vertices;
 	private int vertexBuffer;
 	
-	private int screenWidth = 800;
-	private int screenHeight = 800;
+	private int screenWidth = 700;   //I'm making this smaller because my poor laptop's screen resolution is only 900px tall or something so
+	private int screenHeight = 700;
 	private Scene scene;
 
 
@@ -62,7 +62,7 @@ public class Week1 implements  IWindowListener  {
 	public void draw() {
 		
         // clear the colour buffer
-		glClearColor(0.0f, 0.0f, 0.0f, 1.0f); // BLACK
+		glClearColor(0.46f, 0.24f, 0.34f, 1.0f); // BLACK >> Mauve? idk if this one worked lol
 		glClear(GL_COLOR_BUFFER_BIT);		
 		
 		// draw the scene
